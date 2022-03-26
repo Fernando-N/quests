@@ -1,0 +1,73 @@
+/* font-family: 'Public Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.list-images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 129px 0;
+}
+
+.box {
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  margin-right: 19px;
+  width: 331px;
+  height: 431px;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+.box h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 26px;
+  margin-bottom: 5px;
+}
+
+.box p {
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-left: 26px;
+  margin-bottom: 43px;
+}
+
+.rome {
+  background: url('../assets/6.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.beat {
+  background: url('../assets/3.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.sand {
+  background: url('../assets/4.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.starry {
+  background: url('../assets/5.jpg') center center no-repeat;
+  background-size: cover;
+}

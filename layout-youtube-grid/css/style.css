@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 543px 270px;
+
+  grid-template-areas: 'main ad ';
+  margin: 35px;
+  gap: 17px;
+}
+
+.content {
+  grid-area: main;
+}
+
+.content img {
+  width: 543px;
+  height: 217px;
+  margin-bottom: 12px;
+}
+
+.content h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 7px;
+}
+
+.content .views {
+  font-size: 1.4rem;
+  margin-bottom: 9px;
+}
+
+.content p {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.side-bar {
+  grid-area: ad;
+}
+
+.ad {
+  margin-bottom: 20px;
+  width: 270px;
+}
+
+.ad .ad-container {
+  position: relative;
+  background: url('https://via.placeholder.com/270') center center no-repeat;
+  height: 56px;
+}
+
+.ad .ad-container p {
+  position: absolute;
+  right: 110px;
+  top: 25px;
+  font-size: 1.1rem;
+}
+
+.recommendation .video {
+  display: flex;
+  width: 270px;
+  height: 71px;
+
+  margin-bottom: 16px;
+}
+
+.recommendation .video img {
+  width: 101px;
+  margin-right: 4px;
+}
+
+.recommendation .description h2 {
+  margin-bottom: 7px;
+  font-size: 1.4rem;
+}
+.recommendation .description p {
+  margin-bottom: 5px;
+}
